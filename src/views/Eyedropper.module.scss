@@ -1,0 +1,15 @@
+.wrapper {
+  position: relative;
+  margin-top: 6rem;
+
+  canvas {
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.4);
+  }
+}
+
+.tools {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

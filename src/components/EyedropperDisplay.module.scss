@@ -1,0 +1,13 @@
+.donut {
+  position: absolute;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0 0 5px rgb(0 0 0 / 0.4));
+  cursor: none;
+
+  .hex {
+    font-family: "Courier New", Courier, monospace;
+    fill: #111111;
+    stroke: #ffffff;
+  }
+}

@@ -1,0 +1,27 @@
+.label {
+  display: inline-flex;
+
+  cursor: pointer;
+  border: 2px solid white;
+  padding: 2rem;
+  position: relative;
+  border-radius: 10px;
+  transition: 0.1s ease-in-out all;
+
+  &:hover {
+    background: var(--grey-300);
+  }
+
+  input {
+    position: absolute;
+    inset: 0;
+    opacity: 0.001;
+    cursor: pointer;
+  }
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
